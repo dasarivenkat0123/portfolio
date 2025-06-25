@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects - Dasari Venkat Rathnam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #0a0a0a;
+      color: white;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      z-index: 1000;
+      border-bottom: 1px solid #ccc;
+      margin: 15px 20px 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 0 10px;
+      border-left: 1px solid #999;
+      font-weight: bold;
+    }
+
+    nav a:first-child {
+      border-left: none;
+    }
+
+    .projects-section {
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .project-card {
+      background-color: #fff;
+      color: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .project-content {
+      padding: 20px;
+    }
+
+    .project-content h3 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .project-content p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .discover-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 25px;
+      border: 1px solid black;
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .discover-btn:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="home.html">01 : Home</a>
+      <a href="education.html">02 : Education</a>
+      <a href="internships.html">03 : Internships</a>
+      <a href="projects.html">04 : Projects</a>
+      <a href="about.html">05 : About me</a>
+      <a href="contact.html">06 : Contact</a>
+    </nav>
+  </header>
+
+  <section class="projects-section">
+    <div class="project-card">
+      <div class="project-content">
+        <h3>Web Development</h3>
+        <p>Click on discover to visit My Web Development works</p>
+        <a href="https://servify.42web.io/service/index.php" class="discover-btn" target="_blank">Discover</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
